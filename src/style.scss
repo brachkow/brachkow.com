@@ -2,26 +2,29 @@
   --base-font: 18px;
 }
 
-*,
-&:after,
-&:before {
-  box-sizing: border-box;
-}
+* {
+  font-weight: 400;
 
-*:first-child {
-  margin-top: 0;
-}
+  &,
+  &:after,
+  &:before {
+    box-sizing: border-box;
+  }
 
-*:last-child {
-  margin-bottom: 0;
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 a {
   color: blue;
-}
-
-a:hover {
-  color: red;
+  &:hover {
+    color: red;
+  }
 }
 
 header,
@@ -43,10 +46,6 @@ li {
 ul {
   list-style: none;
   padding: 0;
-}
-
-* {
-  font-weight: 400;
 }
 
 h1 {
