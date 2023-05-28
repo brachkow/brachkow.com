@@ -1,0 +1,7 @@
+{
+  "name": "brachkow.com",
+  "private": true,
+  "scripts": {
+    "start": "pnpx run serve"
+  }
+}
